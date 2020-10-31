@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -72,6 +73,7 @@ p {
     text-align: center;
     vertical-align: middle;
 }
+
 .menu {
     list-style: none;
     font-family: fantasy;
@@ -81,6 +83,7 @@ p {
     z-index: 10;
     cursor: pointer;
 }
+
 .links {
     float: left;
     color: darkcyan;
@@ -91,6 +94,15 @@ p {
     font-family: sans-serif;
     font-size: 20px;
 }
+
 .links:hover {
     background-color: aquamarine;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.article:hover {
+    color: rebeccapurple;
 }
